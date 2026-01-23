@@ -143,3 +143,11 @@ Given a domain (e.g. **200×200**) and a target point count:
 This project was build using visual studio.
 
 Refer to the source code for current integration details.
+
+---
+
+## Authors
+
+- Ian Chua ([@peachismomo](https://github.com/peachismomo))
+- Koh Yan Khang ([@yankhangSIT](https://github.com/yankhangSIT))
+- Lin Zhao Zhi ([@<github-username>](https://github.com/<github-username>))
