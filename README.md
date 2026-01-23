@@ -150,4 +150,4 @@ Refer to the source code for current integration details.
 
 - Ian Chua ([@peachismomo](https://github.com/peachismomo))
 - Koh Yan Khang ([@yankhangSIT](https://github.com/yankhangSIT))
-- Lin Zhao Zhi ([@<github-username>](https://github.com/<github-username>))
+- Lin Zhao Zhi ([@B1ueeee](https://github.com/B1ueeee))
