@@ -1,5 +1,7 @@
 # Procedural Terrain Generation System
 
+![Terrain overview](docs/high-oct.png)
+
 A real-time terrain generation system built with **C++20** and **OpenGL 4.5**, developed as part of the **CSD3183 – Artificial Intelligence for Games** curriculum.  
 This project explores how classical algorithms—**Poisson Disk Sampling**, **Delaunay Triangulation**, and **Perlin Noise**—can be combined to generate expansive, natural-looking 3D landscapes in real time.
 
