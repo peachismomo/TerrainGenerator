@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{d331e118-00c6-4c29-9e83-bf8d9717799a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib">
+      <UniqueIdentifier>{5210cc5d-40d9-4585-853b-032667c0be70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{6633b3ac-41f9-4a4a-a031-fbf37b2c2639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{b82cccd1-ffae-4bb9-b174-7c4beb54a4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Math">
+      <UniqueIdentifier>{91bb31d3-5790-48e5-b221-5d926ff9174e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\ImGui">
+      <UniqueIdentifier>{72780f69-b695-44a1-8524-b491fd02caa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Math">
+      <UniqueIdentifier>{08e58056-48c1-4f97-a388-01235215065e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lib\glad\src\glad.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MeshLoader.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OGLWrapper.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\GraphEditor.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\ImCurveEdit.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\ImGradient.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\imgui.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\imgui_demo.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\imgui_draw.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\imgui_impl_glfw.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\imgui_tables.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\imgui_toggle.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\imgui_toggle_palette.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\imgui_toggle_presets.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\imgui_toggle_renderer.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\imgui_widgets.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\ImGuizmo.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\implot.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\implot_demo.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\implot_items.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\src\ImSequencer.cpp">
+      <Filter>Source Files\Lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Editor.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Primitives.cpp">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CustomMath.cpp">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collision.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BVH.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Terrain.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PoissonDiskSampling.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lib\glad\include\glad\glad.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Window.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Primitives.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MeshLoader.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLAssert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OGLWrapper.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Editor.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CustomMath.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Collision.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BVH.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Utils.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Terrain.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PoissonDiskSampling.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Perlin.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\triangulation.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
